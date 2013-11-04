@@ -1,0 +1,36 @@
+name = Club Selecta
+description = Club Selecta tema profesional tipo responsive.
+package = Core
+version = VERSION
+core = 7.x
+
+; Styles
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/w_templates.css
+stylesheets[all][] = css/w_templates_sec.css
+stylesheets[all][] = css/flexslider.css
+stylesheets[all][] = css/block-promotions.css
+stylesheets[all][] = css/jquery.jscrollpane.css
+
+; Scripts
+scripts[] = js/script.js
+scripts[] = js/jquery.jscrollpane.min.js
+scripts[] = js/jquery.mousewheel.js
+scripts[] = js/theme-responsive.script.js
+scripts[] = js/jquery.flexslider-min.js
+scripts[] = js/jquery.flexslider.js
+scripts[] = js/flexslider_views_slideshow.js
+scripts[] = js/jquery.masonry.min.js
+scripts[] = js/actions.js
+scripts[] = js/customSelect.jquery.js
+
+; Regions
+regions[header] = Header
+regions[slider] = Slider
+regions[content] = Content
+regions[footer] = Footer
+regions[postfooter] = Post Footer
+
+version = "7.17"
+project = "drupal"
+datestamp = "1328134560"
