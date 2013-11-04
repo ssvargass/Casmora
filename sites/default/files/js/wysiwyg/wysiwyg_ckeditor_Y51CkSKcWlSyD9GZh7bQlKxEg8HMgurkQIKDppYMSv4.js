@@ -1,0 +1,1 @@
+window.CKEDITOR_BASEPATH = '/Casmora/sites/all/libraries/ckeditor/';
