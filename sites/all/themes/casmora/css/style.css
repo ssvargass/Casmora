@@ -70,7 +70,8 @@ a:hover {
   font-weight: bold;
   color: #000;
 }
-.region_header .block-menu li a:hover {
+.region_header .block-menu li a:hover,
+.region_header .block-menu li a.active {
   background: #0081B8;
   color: #FFF;
 }
@@ -252,4 +253,42 @@ a:hover {
   position: absolute;
   top: 1em;
   left: 0;
+}
+
+.node-type-webform .node-webform .group-left {
+  width: 60%;
+  clear: left;
+  background: #F4F4F4;
+  padding: 1.5em;
+}
+.node-type-webform .node-webform .group-right {
+  width: 30%;
+  float: right;
+  clear: right;
+  background: #F4F4F4;
+  padding: 1.5em;
+}
+.node-type-webform .node-webform .group-right .field-name-field-mapa {
+  overflow: hidden;
+}
+.webform-client-form .form-text {
+  width: 97%;
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+.webform-client-form .form-actions {
+  float: right;
+  margin: 0;
+}
+.webform-client-form .form-actions .form-submit {
+  margin: 0;
+  padding: 0.5em 1em;
+  background: #0081B8;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.webform-client-form .form-actions .form-submit:hover {
+  background: #666;
 }
